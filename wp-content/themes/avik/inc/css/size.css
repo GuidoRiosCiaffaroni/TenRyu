@@ -1,0 +1,176 @@
+.customize-control-avik-size > ul { 
+    display: inline-block; 
+    width: 100%; 
+}
+
+.customize-control-avik-size .size-wrap { 
+    float: left; 
+    width: 20%; 
+    margin: 0; 
+}
+
+.customize-control-avik-size .size-wrap input,
+.customize-control-avik-size .size-wrap button { 
+    display: block; 
+    font-size: 12px; 
+    padding: 4px 0; 
+    width: 100%; 
+    height: 28px; 
+    border: 1px solid; 
+    border-color: #a4afb7; 
+    border-left-width: 0; 
+    border-radius: 0; 
+    text-align: center; 
+}
+
+.customize-control-avik-size .size-wrap:first-child input { 
+    border-left-width: 1px; 
+    border-radius: 3px 0 0 3px; 
+}
+
+.customize-control-avik-size .size-wrap .size-label { 
+    display: block; 
+    color: #949698; 
+    font-size: 10px; 
+    padding-top: 5px; 
+    font-style: normal; 
+    text-transform: uppercase; 
+    text-align: center; 
+}
+
+.customize-control-avik-size .size-wrap input:focus + .size-label { 
+    color: #42474a; 
+}
+
+.customize-control-avik-size .size-wrap .link-size { 
+    background-color: #fff; 
+    border: 1px solid #a4afb7; 
+    border-left-width: 0; 
+    padding: 0; 
+    outline: none; 
+    border-radius: 0 3px 3px 0; 
+    cursor: pointer; 
+}
+
+.customize-control-avik-size .size-wrap .link-size span { 
+    display: block; 
+    width: 100%; 
+    height: 28px; 
+    line-height: 28px; 
+    font-size: 16px; 
+}
+
+.customize-control-avik-size .size-wrap .link-size .avik-linked { 
+    background-color: #2885ba; 
+    color: #fff; 
+}
+
+.customize-control-avik-size .size-wrap .link-size.unlinked .avik-unlinked { 
+    display: none; 
+}
+
+.customize-control-avik-size .size-wrap .link-size.unlinked .avik-linked { 
+    display: block; 
+}
+
+.customize-control-avik-size .size-wrap .link-size .avik-linked { 
+    display: none; 
+}
+
+.customize-control.has-change .customize-control-title { 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    line-height: 1; 
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+}
+
+.customize-control.has-change .customize-control-title span { 
+    line-height: 20px; 
+}
+
+.customize-control .responsive-change { 
+    margin-left: 5px; 
+    width: auto; 
+}
+
+.customize-control .responsive-change li:not(.desktop) { 
+    display: none; 
+}
+
+.customize-control.responsive-change-open .responsive-change li { 
+    display: block; 
+}
+
+.customize-control .responsive-change li { 
+    float: left; 
+    margin: 0; 
+}
+
+.customize-control .responsive-change li button { 
+    display: inline-block; 
+    height: 25px; 
+    width: 25px; 
+    background-color: #000; 
+    cursor: pointer; 
+    position: relative; 
+    margin-left: 5px; 
+    color: #fff; 
+    font-size: 10px; 
+    text-align: center; 
+    border-radius: 50%; 
+    padding: 0; 
+    border: 0; 
+    outline: none; 
+    -webkit-transition: background-color .5s; 
+    transition: background-color .5s; 
+    cursor: pointer; 
+}
+
+.customize-control .responsive-change li button:hover { 
+    background-color:#4e4e4e; 
+}
+
+.customize-control .responsive-change li:not(.desktop) button.active { 
+    background-color: #2885ba; 
+}
+
+.customize-control .responsive-change li button i { 
+    width: auto; 
+    height: auto; 
+    font-size: 16px; 
+    line-height: 16px; 
+}
+
+.customize-control.has-change > .control-wrap:not(.active) { 
+    display: none; 
+    width: 100%; 
+}
+
+@media screen and ( max-width: 768px ) {
+	body .customize-control .responsive-change { 
+        display: none; 
+    }
+	body .customize-control.has-change > .control-wrap:not(.active) { 
+        display: inline-block; 
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+	body .customize-control.has-change > .control-wrap { 
+        display: inline-block; 
+    }
+	body .customize-control.has-change > .control-wrap:not(.tablet) { 
+        display: none; 
+    }
+}
+
+@media screen and ( max-width: 480px ) {
+	body .customize-control.has-change > .control-wrap { 
+        display: inline-block; 
+    }
+	body .customize-control.has-change > .control-wrap:not(.mobile) { 
+        display: none; 
+    }
+}

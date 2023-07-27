@@ -1,0 +1,32 @@
+.customize-control-bubi-sortable ul li { 
+    padding: 8px 10px; 
+    line-height: 20px; 
+    border: 1px solid #ccc; 
+    background: #fff; 
+}
+
+.customize-control-bubi-sortable ul li .dashicons.dashicons-move { 
+    float: right; 
+}
+
+.customize-control-bubi-sortable ul li .dashicons.visibility { 
+    color: #49aed8; 
+    margin-right: 10px; 
+}
+
+.customize-control-bubi-sortable ul li.invisible { 
+    color: #aaa; 
+    border: 1px dashed #aaa; 
+}
+
+.customize-control-bubi-sortable ul li.invisible .dashicons.visibility { 
+    color: #aaa; 
+}
+
+ul.sortable{
+    cursor: all-scroll;
+}
+
+ul.sortable .dashicons-visibility{
+    cursor: pointer;
+}
