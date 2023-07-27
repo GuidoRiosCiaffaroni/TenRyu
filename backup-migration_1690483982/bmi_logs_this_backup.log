@@ -1,0 +1,98 @@
+[STEP] [2023-07-27 18:47:50] Looking for PHP CLI executable file.
+[WARN] [2023-07-27 18:47:50] Could not find proper PHP CLI executable, this process may be unstable.
+[WARN] [2023-07-27 18:47:50] PHP CLI file cannot be executed due to unknown reason.
+[STEP] [2023-07-27 18:47:50] Initializing backup...
+[INFO] [2023-07-27 18:47:50] Backup & Migration version: 1.2.9
+[INFO] [2023-07-27 18:47:50] Site which will be backed up: https://tenryu.cl
+[INFO] [2023-07-27 18:47:50] PHP Version: 7.4.32
+[INFO] [2023-07-27 18:47:50] WP Version: 6.2.2
+[INFO] [2023-07-27 18:47:50] MySQL Version: 8.0.25
+[INFO] [2023-07-27 18:47:50] MySQL Max Length: 1048576000
+[INFO] [2023-07-27 18:47:50] Web server: Apache
+[INFO] [2023-07-27 18:47:50] Max execution time (in seconds): 30
+[INFO] [2023-07-27 18:47:50] Memory limit (server): 128M
+[INFO] [2023-07-27 18:47:50] Memory limit (wp-config): 40M
+[INFO] [2023-07-27 18:47:50] Memory limit (wp-config admin): 256M
+[INFO] [2023-07-27 18:47:50] Max rows per query (this site): 2000
+[INFO] [2023-07-27 18:47:50] Checking if backup dir is writable...
+[INFO] [2023-07-27 18:47:50] Initializing custom error handler
+[SUCCESS] [2023-07-27 18:47:50] Yup it is writable...
+[STEP] [2023-07-27 18:47:50] Scanning files...
+[STEP] [2023-07-27 18:47:50] Checking free space, reserving...
+[INFO] [2023-07-27 18:47:50] Requires at least 27167663 bytes. [25.91 MB]
+[INFO] [2023-07-27 18:47:50] Disk free space function is not disabled - using it...
+[INFO] [2023-07-27 18:47:50] Checking this path/partition: /home/www/tenryu.cl/wp-content/backup-migration/backups
+[SUCCESS] [2023-07-27 18:47:50] There is 1,433,080.31 MB free. [1.37 TB]
+[SUCCESS] [2023-07-27 18:47:50] Great! We have enough space.
+[SUCCESS] [2023-07-27 18:47:50] Confirmed, there is more than enough space, checked: 27167663 bytes
+[INFO] [2023-07-27 18:47:50] Scanning done - found 1033 files...
+[SUCCESS] [2023-07-27 18:47:50] Backup initialized...
+[STEP] [2023-07-27 18:47:50] Initializing archiving system...
+[SUCCESS] [2023-07-27 18:47:50] Archive system initialized...
+[STEP] [2023-07-27 18:47:50] Preparing map of files...
+[SUCCESS] [2023-07-27 18:47:50] Files prepared.
+[INFO] [2023-07-27 18:47:50] Starting compression process...
+[STEP] [2023-07-27 18:47:50] Smart memory calculation...
+[INFO] [2023-07-27 18:47:50] There is 384 MBs of memory to use
+[INFO] [2023-07-27 18:47:50] WordPress memory limit: 256 MBs
+[SUCCESS] [2023-07-27 18:47:50] Setting the safe limit to 86 MB
+[INFO] [2023-07-27 18:47:50] Using PclZip module to create the backup
+[INFO] [2023-07-27 18:47:50] Legacy setting: Using default modules depending on user server
+[STEP] [2023-07-27 18:47:50] Making database backup (using v3 engine, requires at least v1.2.2 to restore)
+[INFO] [2023-07-27 18:47:50] Iterating database...
+[INFO] [2023-07-27 18:47:50] Memory usage after initialization: 42.79 MB
+[INFO] [2023-07-27 18:47:51] Scan found 13 tables (463 rows), estimated total size: 0.77 MB.
+[INFO] [2023-07-27 18:47:51] Memory usage after getting table names: 42.79 MB 
+[INFO] [2023-07-27 18:47:51] Getting table recipes...
+[INFO] [2023-07-27 18:47:51] Table recipes have been exported.
+[INFO] [2023-07-27 18:47:51] Memory usage after loading recipes: 42.80 MB 
+[INFO] [2023-07-27 18:47:51] Saving recipes...
+[INFO] [2023-07-27 18:47:51] Recipes saved.
+[INFO] [2023-07-27 18:47:51] Memory usage after recipe off-load: 42.80 MB
+[INFO] [2023-07-27 18:47:51] Exporting table data...
+[STEP] [2023-07-27 18:47:51] Getting data of table: wp_commentmeta (1/13, 0.05 MB)
+[INFO] [2023-07-27 18:47:51] Table wp_commentmeta is empty, saving only recipe.
+[STEP] [2023-07-27 18:47:51] Getting data of table: wp_comments (2/13, 0.09 MB)
+[SUCCESS] [2023-07-27 18:47:51] Table export for: wp_comments finished (0.00235s)
+[STEP] [2023-07-27 18:47:51] Getting data of table: wp_links (3/13, 0.03 MB)
+[INFO] [2023-07-27 18:47:51] Table wp_links is empty, saving only recipe.
+[STEP] [2023-07-27 18:47:51] Getting data of table: wp_options (4/13, 0.09 MB)
+[SUCCESS] [2023-07-27 18:47:51] Table export for: wp_options finished (0.02435s)
+[STEP] [2023-07-27 18:47:51] Getting data of table: wp_postmeta (5/13, 0.05 MB)
+[SUCCESS] [2023-07-27 18:47:51] Table export for: wp_postmeta finished (0.00614s)
+[STEP] [2023-07-27 18:47:51] Getting data of table: wp_posts (6/13, 0.11 MB)
+[SUCCESS] [2023-07-27 18:47:51] Table export for: wp_posts finished (0.00763s)
+[STEP] [2023-07-27 18:47:51] Getting data of table: wp_term_relationships (7/13, 0.03 MB)
+[SUCCESS] [2023-07-27 18:47:51] Table export for: wp_term_relationships finished (0.00189s)
+[STEP] [2023-07-27 18:47:51] Getting data of table: wp_term_taxonomy (8/13, 0.05 MB)
+[SUCCESS] [2023-07-27 18:47:51] Table export for: wp_term_taxonomy finished (0.00196s)
+[STEP] [2023-07-27 18:47:51] Getting data of table: wp_termmeta (9/13, 0.05 MB)
+[INFO] [2023-07-27 18:47:51] Table wp_termmeta is empty, saving only recipe.
+[STEP] [2023-07-27 18:47:51] Getting data of table: wp_terms (10/13, 0.05 MB)
+[SUCCESS] [2023-07-27 18:47:51] Table export for: wp_terms finished (0.00196s)
+[STEP] [2023-07-27 18:47:51] Getting data of table: wp_um_metadata (11/13, 0.06 MB)
+[INFO] [2023-07-27 18:47:51] Table wp_um_metadata is empty, saving only recipe.
+[STEP] [2023-07-27 18:47:51] Getting data of table: wp_usermeta (12/13, 0.05 MB)
+[SUCCESS] [2023-07-27 18:47:51] Table export for: wp_usermeta finished (0.00293s)
+[STEP] [2023-07-27 18:47:51] Getting data of table: wp_users (13/13, 0.06 MB)
+[SUCCESS] [2023-07-27 18:47:51] Table export for: wp_users finished (0.00241s)
+[INFO] [2023-07-27 18:47:51] Table data exported.
+[INFO] [2023-07-27 18:47:51] Memory usage after data export: 42.78 MB
+[INFO] [2023-07-27 18:47:51] Entire process took: 0.1181 s
+[SUCCESS] [2023-07-27 18:47:51] Database backup finished
+[STEP] [2023-07-27 18:47:51] Making archive
+[INFO] [2023-07-27 18:47:51] Compressing...
+[WARN] [2023-07-27 18:47:51] Backup will run as single-request, may be unstable...
+[STEP] [2023-07-27 18:47:51] Adding database SQL file(s) to the backup file.
+[SUCCESS] [2023-07-27 18:47:51] Database added to the backup successfully.
+[STEP] [2023-07-27 18:47:51] Performing site files backup...
+[INFO] [2023-07-27 18:47:51] Chunks contain 250 files.
+[INFO] [2023-07-27 18:47:52] Milestone: 500/1033
+[INFO] [2023-07-27 18:47:53] Milestone: 1000/1033
+[INFO] [2023-07-27 18:47:53] Milestone: 1033/1033
+[SUCCESS] [2023-07-27 18:47:53] Compressed 1033 files
+[INFO] [2023-07-27 18:47:53] Archiving of 1033 files took: 3.03s
+[STEP] [2023-07-27 18:47:53] Finalizing backup
+[INFO] [2023-07-27 18:47:53] Adding manifest...
+[STEP] [2023-07-27 18:47:53] Closing files and archives
+[END-CODE] [2023-07-27 18:47:53] #001
